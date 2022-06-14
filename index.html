@@ -7,6 +7,130 @@
     <title>Bon Appétit</title>
 </head>
 <body>
-    
+    <header>
+        <img src="img/cardapio.png" width="50" height="50">Bon Appétit
+      </header>
+      <style>
+        header{
+          text-align: center;
+          font:200% "Lucida Handwriting";
+          color: #000000;
+        }
+        main{
+          text-align: center;
+        }
+        body{
+          background-color: #ECDAC5;
+          display: grid;
+          font-family: Garamond, Georgia, "Times New Roman";
+          color: #000000;
+          padding:0px;
+    			margin:0px;
+        }
+
+        .imagens{
+          display: grid;
+          grid-template-columns: auto auto;
+        }
+
+        a{
+          text-decoration: none;
+        }
+
+        ul li a {
+          padding: 2px 10px;
+          display: inline-block;
+          text-decoration: none;
+        }
+        a:link{
+          color: #F46914;
+        }
+        a:hover{
+          color: #FFC300;
+        }
+
+		    #menu ul {
+          text-align:center;
+			    padding:0px;
+			    margin:0px;
+			    float: left;
+			    width: 100%;
+		      list-style:none;
+	        font:100% Garamond;
+		    }
+
+		    #menu ul li { display: inline; }
+
+		    #menu ul li a {
+          text-align: center;
+		 	    background-color:#EEE7F7
+;
+			    color: #AFCE71;
+			    text-decoration: none;
+		    	border-bottom:3px solid #CDB7E8;
+			    padding: 2px 10px;
+		    }
+
+		    #menu ul li a:hover {
+			  background-color:#CADF9F;
+			  color: #F46914;
+			  border-bottom:3px solid #F46914;
+		    }
+        footer{
+          text-align: center;
+        }
+      </style>
+    </header>
+    <nav>
+      <div id="Menu">
+        <ul>
+          <li><a href="Bolos_Tortas.html">Bolos e Tortas</a></li>
+          <li><a href="Carnes.html">Carnes</a></li>
+          <li><a href="Doces_Sobremesas.html">Doces e Sobremesas</a></li>
+          <li><a href="Lanches.html">Lanches</a></li>
+          <li><a href="Massas.html">Massas</a></li>
+          <li><a href="Bebidas.html">Bebidas</a></li>
+      </ul>
+      </div>
+    </nav>
+
+    <main>
+      <nav>
+        <div class="imagens">
+        <div>
+          <h2>Bolo de Cenoura</h2>
+          <img src="img/BoloC.jpg" width="300" height="200" />
+          <a href="Bolos_Tortas.html">Ver Receita</a>
+        </div>
+
+        <div>
+          <h2>Filé ao molho de vinho</h2>
+          <img src="img/FiléVinho.jpg" width="300" height="200" />
+          <a href="Carnes.html">Ver Receita</a>
+        </div>
+
+        <div>
+          <h2>Manjar Turco - Crônicas de Nárnia</h2>
+          <img src="img/Manjar.jpg" width="300" height="200" />
+          <a href="Doces_Sobremesas">Ver Receita</a>
+        </div>
+
+        <div>
+          <h2>Macarrão ao molho branco</h2>
+          <img src="img/MacaBranco.jpg" width="300" height="200" />
+          <a href="Massas.html">Ver Receita</a>
+        </div>
+
+        <div>
+          <h2>Cerveja amanteigada - Harry Potter</h2>
+          <img src="img/CA.jpeg" width="300" height="200" />
+          <a href="Bebidas.html">Ver Receita</a>
+        </div>
+      </div>
+      </nav>
+    </main>
+    <footer>
+      <p>Página criada por Gabriely Abreu de Aguiar</p>
+    </footer>
 </body>
 </html>
