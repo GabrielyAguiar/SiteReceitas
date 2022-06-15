@@ -6,14 +6,14 @@ header{
 
 
 *{
-    margin: 0;   /* Zerando a margem */
+    margin: 0; 
     padding: 0;
     border: 0;
 }
 
-body{ /* Pegando o BODY e pintando o corpo do site*/
+body{ 
     font-family: 'Roboto', sans-serif;
-    color: black; /*cor texto*/
+    color: black; 
     
 }
 
